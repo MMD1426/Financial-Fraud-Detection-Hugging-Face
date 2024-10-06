@@ -1,22 +1,22 @@
 # Financial-Fraud-Detection-Hugging-Face
 
-## معرفی
+## Introduction
 
-این پروژه با هدف تشخیص خودکار تقلب مالی با استفاده از تکنیک‌های پیشرفته یادگیری ماشین طراحی شده است. مدل از مجموعه داده‌های Hugging Face بهره می‌برد و از تکنیک‌های پیشرفته‌ای مانند LightGBM برای طبقه‌بندی فعالیت‌های مالی تقلب‌آمیز استفاده می‌کند. هدف اصلی این پروژه، ارائه راه‌حلی دقیق و قابل اعتماد برای شناسایی تقلب‌های احتمالی در داده‌های تراکنش است.
+This project aims to automatically detect financial fraud using advanced machine learning techniques. The model leverages datasets from Hugging Face and utilizes sophisticated methods such as LightGBM for classifying fraudulent financial activities. The primary objective of this project is to provide an accurate and reliable solution for identifying potential fraud in transaction data.
 
-## ویژگی‌ها
+## Features
 
-- **استفاده از مجموعه داده‌های Hugging Face**: مدل بر روی یک مجموعه داده منظم از Hugging Face که شامل داده‌های تراکنش برچسب‌گذاری‌شده برای تشخیص تقلب است، آموزش دیده است.
-- **معماری مدل پیشرفته**: این پروژه از مدل‌های پیشرفته‌ای مانند LightGBM برای استخراج ویژگی‌ها و طبقه‌بندی تراکنش‌ها به عنوان تقلبی یا مشروع استفاده می‌کند.
-- **پیش‌پردازش داده‌ها**: شامل مراحل ضروری برای آماده‌سازی داده‌ها، از جمله نرمال‌سازی و مهندسی ویژگی‌ها، به‌منظور افزایش دقت مدل است.
+- **Utilization of Hugging Face Datasets**: The model is trained on a well-structured dataset from Hugging Face, which includes labeled transaction data for fraud detection.
+- **Advanced Model Architecture**: This project uses advanced models like LightGBM for feature extraction and classifying transactions as fraudulent or legitimate.
+- **Data Preprocessing**: Includes essential steps such as normalization and feature engineering to improve the model's accuracy.
 
-## مدل
+## Model
 
-- در این پروژه از مدل LightGBM برای تشخیص تقلب مالی استفاده شده است.
+- LightGBM is used in this project for detecting financial fraud.
 
-## مشارکت
+## Contribution
 
-مشارکت شما در بهبود این پروژه مورد استقبال قرار می‌گیرد! شما می‌توانید با ارائه گزارش اشکالات یا ارسال درخواست‌های تغییر (Pull Requests)، در توسعه پروژه سهیم باشید.
+Your contributions to improve this project are welcome! You can participate by reporting bugs or submitting pull requests.
 
-## دیتاست
-https://huggingface.co/datasets/rohan-chandrashekar/Financial_Fraud_Detection
+## Dataset
+[Financial Fraud Detection Dataset](https://huggingface.co/datasets/rohan-chandrashekar/Financial_Fraud_Detection)
